@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', Tahoma, sans-serif;
+  background-color: rgb(249, 249, 249);
+  color: rgb(51, 51, 51);
+  line-height: 1.6;
+}
+nav {
+  position: sticky;
+  top: 0;
+  background-color: rgb(255, 255, 199);
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  z-index: 100;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+nav a:hover {
+  background-color: rgb(209, 250, 255);
+}
+h1 {
+  font-family: "WindSong", cursive;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: rgb(0, 196, 235);
+  margin-top: 30px;
+}
+h2 {
+  text-align: center;
+  color: rgb(181, 0, 181);
+}
+.content-box {
+  background-color: rgb(255, 255, 255);
+  padding: 24px;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  width: 90%;
+  max-width: 700px;
+  overflow: hidden;
+}
+.about-me {
+  border-left: 6px solid rgb(0, 196, 235);
+}
+.about-me a {
+  color: rgb(51, 51, 51);
+  text-decoration: underline;
+}
+.drawing-section {
+  border-left: 6px solid rgb(240, 200, 160);
+}
+.reading-section {
+  border-left: 6px solid rgb(120, 100, 230);
+}
+.sports-section {
+  border-left: 6px solid rgb(0, 200, 100);
+}
+.contact-section {
+  border-left: 6px solid rgb(200, 120, 200);
+}
+.contact-section a {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+.schedule-section {
+  border-left: 6px solid rgb(255, 183, 0);
+}
+.schedule-section ul em {
+  color: rgb(0, 100, 180);
+}
+img {
+  float: left;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+#highlight {
+  color: rgb(0, 150, 200);
+  font-weight: bold;
+}
+#thanks {
+  color: rgb(181, 0, 181);
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.schedule-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.schedule-section th,
+.schedule-section td {
+  border: 1px solid rgb(180, 180, 255);
+  padding: 8px;
+  text-align: center;
+}
+.schedule-section th {
+  background-color: rgb(220, 220, 255);
+  color: rgb(50, 50, 120);
+}
